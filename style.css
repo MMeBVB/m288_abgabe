@@ -41,3 +41,24 @@ h1{
 .redText, #computerScoreDisplay{
     color: #ef4343
 }
+@media only screen and (max-width: 1000px){
+    body{
+        background-color: lightblue;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .choices button{
+        font-size: 5.5em;
+        min-width: 160px;
+        margin: 0 10px;
+        display: block;
+        background-color: #00aaff;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    }
+    #resultDisplay{ 
+        font-size: 3rem;
+        margin: 30px 0;
+    }
+}
